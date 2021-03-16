@@ -1,0 +1,148 @@
+Notes 
+
+
+Section 1: 
+
+
+Section 2:
+    React Concepts
+
+    The Birth of React
+        jquery - Made the differences between browsers..
+        As projects became more ambitious, the need for an efficient
+            and simplified methodology was required.
+        AngularJS was a SPA solution by Google.
+            - Despite this, ambitious SPAs became harder to debug.
+        ReactJS was created to further simplify this process.
+
+    Declarative vs Imperative
+        React handles DOM interactions
+        DOM - manipulated via JS to manipulate a webpage.
+        Imperative - Reactive relations between JS related changes
+        Declarative - React uses states to make DOM editing more
+            efficient.
+
+    Component Architecture
+        React allows developers to build and app like lego blocks.
+        
+    One Way Data Flow
+        Unidirectional Data Flow
+        VirtualDOM is created by JS
+        State has to change so that SPA reflects a change.
+
+    UI Library
+        Basically, React has packages which will allow developers
+            to develop apps for VR, Console, Desktop, Mobile, etc.
+
+    How to be a Great React Developer
+        1.) Decide on Components
+        2.) Decide the State and where it lives
+        3.) What changes when state changes.
+
+    React Latest Version
+
+
+
+Section 3: React Basics
+    Environment Setup For Windows
+
+    NPM vs YARN
+        Install dependencies from package.json
+            `npm install` == `yarn`
+        Install a package and add to package.json
+            `npm install <package> --save` == `yarn add <package>`
+        Install a devDependency to package.json
+            `npm install <package> --save-dev` == `yarn add <package> --dev`
+        Remove dependency from package.json
+            `npm uninstall <package> --save` == `yarn remove <package>`
+        Upgrade a package to latest Version
+            `npm update --save` == `yarn upgrade`
+        Install a package globally
+            `npm install package -g` == `yarn global add package`
+
+    Yihua's VSCode Font and Settings
+
+    VSCode Settings
+    
+    Create React App 
+        `npx create-react-app <project name>`
+
+    React Project Setup
+        Build project:
+            `npm run build`, which creates the project>build dir.
+        Babel 
+            Packages JS files so they run across all browsers
+        WebPack 
+            Packages JS files and modules to create an optimized JS bundle.
+
+    Don't Eject
+        Not necessary - just expands create-react-app code which is already
+            optimized.
+
+    Class Components
+        Why Classes? 
+            A lot more capabilities compared to method.
+
+    Thinking in JSX
+
+    Dynamic Content
+
+    map() + key attribute
+
+    Single Page Application
+        Lifecycle Methods:
+            Methods that get called at different stages for components.
+
+        API:
+
+    Fetching Content
+
+    Promises
+
+    Architecting our App
+    
+    State vs Props
+        State:
+            Something that changes due to user interactions
+
+        Props:
+            Changes/information relating to the changed state.
+
+    SearchField State
+
+    React Events
+
+    Filtering State
+
+    filter() includes()
+
+    Search Box Componenet
+    
+    Where to put state?
+
+    Class Methods and Arrow Functions
+
+    Event Binding
+
+    Git / Github
+
+    Deploying App
+
+    CORS error
+
+    React and ReactDOM
+
+    VirtualDOM + Unidirectional Data Flow
+
+    Asynchronous setState
+
+    Lifecycle Methods
+
+    Lifecycle Methods - Mounting 
+
+    Lifecycle Methods - Updating
+
+    Lifecycle Methods - Unmounting
+
+
+
